@@ -275,142 +275,165 @@
 
 
 
-  <section class="bg-primary" id="about">
+  <section class="bg-primary" id="contact">
     <h2 class="section-heading text-center">Reserva</h2> <br>
 
-    <div class="container">
+ 
+  <!------ Include the above in your HEAD tag ---------->
 
-      <div class="col-lg-12 text-center">
-        <div id="booking" class="section">
-          <div class="section-center">
-            <div class="container">
-              <div class="col-lg-12 text-center">
-                <div class="booking-form">
-                  <form>
-                    <div class="form-group">
-                      <div class="form-checkbox">
-                        <label for="roundtrip">
-                          <input type="radio" id="roundtrip" name="flight-type">
-                          <span></span>Roundtrip
-                        </label>
-                        <label for="one-way">
-                          <input type="radio" id="one-way" name="flight-type">
-                          <span></span>One way
-                        </label>
-                        <label for="multi-city">
-                          <input type="radio" id="multi-city" name="flight-type">
-                          <span></span>Multi-City
-                        </label>
-                      </div>
-                    </div>
-                    <div class="col-lg-6 ml-auto">
-                      <div class="col-lg-4 ml-auto text-center">
-                        <div class="form-group">
-                          <span class="form-label">Habitació</span>
-                          <select class="form-control">
-                            <option>0 habitació</option>
-                            <option>1 habitació</option>
-                            <option>2 habitació</option>
-                            <option>3 habitació</option>
-                            <option>+4 habitació</option>
-                          </select>
-                          <span class="select-arrow"></span>
-                        </div>
-                      </div>
-                      <div class="col-lg-4 ml-auto text-center">
-                        <div class="form-group">
-                          <span class="form-label">Baños</span>
-                          <select class="form-control">
-                            <option>0 baños</option>
-                            <option>1 baño</option>
-                            <option>2 baños </option>
-                            <option>3 baños </option>
-                            <option>+4 baños </option>
-                          </select>
-                          <span class="select-arrow"></span>
-                        </div>
-                      </div>
-                    </div>
-
-                      <div class="col-md-4">
-                        <div class="form-group">
-                          <span class="form-label">Cocina</span>
-                          <select class="form-control">
-                            <option>0 cocinas</option>
-                            <option>1 cocina</option>
-                            <option>2 cocinas </option>
-                            <option>3 cocinas </option>
-                            <option>+4 cocinas </option>
-                          </select>
-                          <span class="select-arrow"></span>
-                        </div>
-                      </div>
-                      <div class="col-lg-4 ml-auto text-center">
-                        <div class="form-group">
-                          <span class="form-label">Salón</span>
-                          <select class="form-control">
-                            <option>0 salóns</option>
-                            <option>1 salóns</option>
-                            <option>2 salóns </option>
-                            <option>3 salóns </option>
-                            <option>+4 salóns </option>
-                          </select>
-                          <span class="select-arrow"></span>
-                        </div>
-                      </div>
-                </div>
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <span class="form-label">Flying from</span>
-                      <input class="form-control" type="text" placeholder="City or airport">
-                    </div>
+  <div class="container bg-primary register">
+      <div class="row">
+        <div class="col-md-3 register-left">
+          <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt="" />
+          <h3>Realiza tu solicitud</h3>
+          <p>Indica qué profesional necesitas, las tareas que quieres que se realicen !</p>
+        </div>
+        <div class="col-md-9 register-right">
+          <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+                aria-selected="true">reserva </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
+                aria-selected="false">Dirección</a>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+              <h3 class="register-heading"></h3>
+              <div class="row register-form">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <span class="form-label">Habitació</span>
+                    <select class="form-control">
+                      <option>0 habitació</option>
+                      <option>1 habitació</option>
+                      <option>2 habitació</option>
+                      <option>3 habitació</option>
+                      <option>+4 habitació</option>
+                    </select>
                   </div>
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <span class="form-label">Flyning to</span>
-                      <input class="form-control" type="text" placeholder="City or airport">
+                  <div class="form-group">
+                    <span class="form-label">Cocina</span>
+                    <select class="form-control">
+                      <option>0 cocinas</option>
+                      <option>1 cocina</option>
+                      <option>2 cocinas </option>
+                      <option>3 cocinas </option>
+                      <option>+4 cocinas </option>
+                    </select>
+                  </div>
+                  <span class="form-label">Añade otras tareas extra </span><br>
+                  <div class="row col-md-12">
+  
+                    <div class="row">
+  
+                      <div class="form-group col-md-4">
+                        <div class="custom-control custom-checkbox mb-3">
+                          <input type="checkbox" class="custom-control-input" id="customCheck1" name="example1">
+                          <label class="custom-control-label" for="customCheck1">Planchar ropa</label>
+                        </div>
+                      </div>
+                      <div class="form-group col-md-4">
+                        <div class="custom-control custom-checkbox mb-3">
+                          <input type="checkbox" class="custom-control-input" id="customCheck2" name="example1">
+                          <label class="custom-control-label" for="customCheck2">Interior frigirifico</label>
+                        </div>
+                      </div>
+                      <div class="form-group col-md-4">
+                        <div class="custom-control custom-checkbox mb-3">
+                          <input type="checkbox" class="custom-control-input" id="customCheck3" name="example1">
+                          <label class="custom-control-label" for="customCheck3">Interior muebles</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="form-group col-md-4">
+                        <div class="custom-control custom-checkbox mb-3">
+                          <input type="checkbox" class="custom-control-input" id="customCheck4" name="example1">
+                          <label class="custom-control-label" for="customCheck4">Interior ventanas</label>
+                        </div>
+                      </div>
+                      <div class="form-group col-md-4">
+                        <div class="custom-control custom-checkbox mb-3">
+                          <input type="checkbox" class="custom-control-input" id="customCheck5" name="example1">
+                          <label class="custom-control-label" for="customCheck5">Interior horno</label>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div class="row">
-                  <div class="col-md-3">
-                    <div class="form-group">
-                      <span class="form-label">Departing</span>
-                      <input class="form-control" type="date" required>
-                    </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <span class="form-label">Baños</span>
+                    <select class="form-control">
+                      <option>0 baños</option>
+                      <option>1 baño</option>
+                      <option>2 baños </option>
+                      <option>3 baños </option>
+                      <option>+4 baños </option>
+                    </select> </div>
+                  <div class="form-group">
+                    <span class="form-label">Salón</span>
+                    <select class="form-control">
+                      <option>0 salóns</option>
+                      <option>1 salóns</option>
+                      <option>2 salóns </option>
+                      <option>3 salóns </option>
+                      <option>+4 salóns </option>
+                    </select>
                   </div>
-                  <div class="col-md-3">
-                    <div class="form-group">
-                      <span class="form-label">Returning</span>
-                      <input class="form-control" type="date" required>
-                    </div>
+                  <div class="form-group">
+                    <span class="form-label">Día</span>
+                    <input type="date" class="form-control" placeholder="date *" value="" />
                   </div>
                   <div class="row">
-                    <div class="col-md-3">
-                      <div class="form-group">
-                        <span class="form-label">Travel class</span>
-                        <select class="form-control">
-                          <option>Economy class</option>
-                          <option>Business class</option>
-                          <option>First class</option>
-                        </select>
-                        <span class="select-arrow"></span>
-                      </div>
+                    <div class="form-group col-md-6">
+                      <span class="form-label">hora de inicio</span>
+                      <input type="time" class="form-control" value="" />
                     </div>
-                    <div class="col-md-3 text-center">
-                      <div class="form-btn ">
-                        <button class="submit-btn">Show flights</button>
-                      </div>
+                    <div class="form-group col-md-6 ml-auto">
+                      <span class="form-label">Hora final</span>
+                      <input type="time" class="form-control" value="" />
                     </div>
                   </div>
-                  </form>
                 </div>
+              </div>
+            </div>
+            <div class="tab-pane fade show" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+              <h3 class="register-heading">Apply as a Hirer</h3>
+              <div class="row register-form">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Nombre *" value="" />
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Dirección *" value="" />
+                  </div>
+                  <div class="form-group">
+                    <input type="text" maxlength="10" minlength="10" class="form-control" placeholder="teléfono*"
+                      value="" />
+                  </div>
+                  <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Email *" value="" />
+                  </div>
+  
+                  <div class="row">
+                    <div class="col-lg-12 text-center">
+                      <div id="send"></div>
+                      <button type="submit" value=" Submit" class="btn">Enviar</button>
+                    </div>
+                  </div>
+  
+                </div>
+  
               </div>
             </div>
           </div>
         </div>
       </div>
+  
     </div>
   </section>
 
